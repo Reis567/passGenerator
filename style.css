@@ -4,3 +4,16 @@
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
 }
+
+:root{
+    --white-color:#f2f2f2;
+    --first-color:#a3d3d0;
+    --second-color:#3FB8AF;
+    --third-color:#0f3d3a;
+}
+
+
+body{
+    background: var(--third-color);
+    color: var(--white-color);
+}
