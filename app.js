@@ -21,3 +21,13 @@ function createPassword(){
     }
     passwordBox.value = password;
 }
+
+
+function copyPass() {
+    passwordBox.select();
+    document.execCommand("copy");
+    console.log('Copy');
+
+    // Remova a seleção do campo de senha
+    passwordBox.blur(); // Remove o foco do campo
+}
