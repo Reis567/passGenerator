@@ -28,6 +28,14 @@ function copyPass() {
     document.execCommand("copy");
     console.log('Copy');
 
+    const copyMessage = document.getElementById("copyMessage");
+    copyMessage.style.display = "block";
+
+    // Esconder o aviso após 2 segundos (2000 ms)
+    setTimeout(() => {
+        copyMessage.style.display = "none";
+    }, 1500);
+
     // Remova a seleção do campo de senha
     passwordBox.blur(); // Remove o foco do campo
 }

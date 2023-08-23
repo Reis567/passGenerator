@@ -13,15 +13,17 @@
 <body>
     <div class="container">
         <h1>PassGenius <i class="fa-solid fa-lock"></i></h1>
-        <h1 class="title">Empowering Fortresses of Securit</h1>
+        <h1 class="title">Empowering Fortresses of Security</h1>
         <div class="display">
             <input type="text" id="password" placeholder="Password">
             <i class="fa-solid fa-copy" onclick="copyPass()"></i>
         </div>
+        <!-- Adicionar o elemento de aviso "Copied" aqui -->
+        <div id="copyMessage" class="copy-message">Copied</div>
+        
         <button onclick="createPassword()">
             <i class="fa-solid fa-rotate"></i>
             Generate password
-            
         </button>
     </div>
     <script src="./app.js"></script>

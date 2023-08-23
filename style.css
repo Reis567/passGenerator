@@ -84,3 +84,17 @@ body{
     font-size: 24px;
     background: var(--white-color);
 }
+
+.copy-message {
+    display: none;
+    margin-bottom: 5px;
+    width: 40%;
+    background-color: var(--second-color);
+    color: var(--white-color);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 900;
+
+    
+}
