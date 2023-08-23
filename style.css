@@ -98,3 +98,23 @@ body{
 
     
 }
+
+/* Media Query para dispositivos com largura menor */
+@media (max-width: 847px) {
+    .container {
+      margin: 5%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Alinha verticalmente no centro */
+      gap: 10px; /* Espaçamento entre os itens */
+    }
+  
+    .container h1 {
+      font-size: 36px;
+    }
+  
+    .container .title {
+      font-size: 24px;
+    }
+  }
