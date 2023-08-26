@@ -1,6 +1,6 @@
 # PassGenius - Password Generator
 
-![PassGenius Screenshot](screenshot.png)
+![PassGenius Screenshot](screenshot.PNG)
 
 Welcome to PassGenius - a simple and secure password generator!
 
@@ -51,7 +51,7 @@ Made with ❤️ by [Reis567](https://github.com/Reis567)
 
 # PassGenius - Gerador de Senhas
 
-![PassGenius Screenshot](screenshot.png)
+![PassGenius Screenshot](screenshot.PNG)
 
 Bem-vindo ao PassGenius - um gerador de senhas simples e seguro!
 
